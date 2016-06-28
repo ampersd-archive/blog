@@ -1,9 +1,25 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Blog about Everything</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Tue, 28 Jun 2016 10:48:57 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;Переехал с wordpress'a на ghost и github pages.&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost-2/</link><guid isPermaLink="false">bbab95fe-ee9c-43fa-8272-627b0674913e</guid><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Mon, 27 Jun 2016 12:41:33 GMT</pubDate><content:encoded>&lt;p&gt;Переехал с wordpress'a на ghost и github pages.&lt;/p&gt;</content:encoded></item><item><title>Кремниевая долина</title><description>&lt;p&gt;&lt;a href="http://akorepanov.ru/wp-content/uploads/2016/03/Screen-Shot-2014-04-07-at-22.03.19.png"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/h_355,w_629/v1467022598/Screen-Shot-2014-04-07-at-22.03.19-e1458724150647_swpxay.png" alt="Screen Shot 2014-04-07 at 22.03.19" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Blog about Everything</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Tue, 28 Jun 2016 14:10:44 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Welcome to Ghost</title><description>&lt;p&gt;Переехал с wordpress'a на ghost и github pages.&lt;/p&gt;
+
+&lt;p&gt;Блог веду с 2013 года, пишу редко, а платить за хостинг приходилось регулярно. 119 деревянных в месяц. Хостился всё это время на ihc.ru&lt;/p&gt;
+
+&lt;p&gt;Wordpress мне всегда не очень нравился, особенно его кривоватое форматирование.&lt;/p&gt;
+
+&lt;p&gt;В ghost'e всё стильно, модно, молодежно и по&lt;/p&gt;</description><link>http://localhost:2368/welcome-to-ghost-2/</link><guid isPermaLink="false">bbab95fe-ee9c-43fa-8272-627b0674913e</guid><dc:creator>Антон Корепанов</dc:creator><pubDate>Mon, 27 Jun 2016 12:41:33 GMT</pubDate><content:encoded>&lt;p&gt;Переехал с wordpress'a на ghost и github pages.&lt;/p&gt;
+
+&lt;p&gt;Блог веду с 2013 года, пишу редко, а платить за хостинг приходилось регулярно. 119 деревянных в месяц. Хостился всё это время на ihc.ru&lt;/p&gt;
+
+&lt;p&gt;Wordpress мне всегда не очень нравился, особенно его кривоватое форматирование.&lt;/p&gt;
+
+&lt;p&gt;В ghost'e всё стильно, модно, молодежно и по минимуму. Пока нравится. Посмотрим как дальше пойдет.&lt;/p&gt;
+
+&lt;p&gt;p.s. средства миграции с wordpress'a очень просты - специальный плагин выгрузит все посты из базы в json формат, который потом можно импортировать в ghost + картинки можно также выгрузить на внешний хостинг cloudinary.com (где до 2-х Гб картинок бесплатно можно хранить и сервис как раз под это заточен)&lt;/p&gt;
+
+&lt;p&gt;Осталось тут ещё пару вещей доделать - комментарии  disqus подключить, сервис аналитики (яндекс или гугл), со шрифтами что-то сделать русскими и добавить код оценки времени чтения статей. Но это дело наживное.&lt;/p&gt;</content:encoded></item><item><title>Кремниевая долина</title><description>&lt;p&gt;&lt;a href="http://akorepanov.ru/wp-content/uploads/2016/03/Screen-Shot-2014-04-07-at-22.03.19.png"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/h_355,w_629/v1467022598/Screen-Shot-2014-04-07-at-22.03.19-e1458724150647_swpxay.png" alt="Screen Shot 2014-04-07 at 22.03.19" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;В этом посте приведены цитаты из книги &lt;a href="http://akorepanov.ru/2016/03/23/yandex-book/"&gt;Яндекс.Книга&lt;/a&gt;, которые касаются IT-бизнеса в США и его отличий от остального мира. Также говорится о том почему Кремниевая долина появилась там, где она находится сейчас и может ли она куда-то переехать?&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt; В России столько искусственных препятствий, что всегда есть на кого свалить&lt;/p&gt;&lt;/blockquote&gt;</description><link>http://localhost:2368/silicon-valley/</link><guid isPermaLink="false">77433000-f281-42e5-83f6-9c23dc5b96dd</guid><category>Бизнес</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Wed, 23 Mar 2016 14:09:49 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://akorepanov.ru/wp-content/uploads/2016/03/Screen-Shot-2014-04-07-at-22.03.19.png"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/h_355,w_629/v1467022598/Screen-Shot-2014-04-07-at-22.03.19-e1458724150647_swpxay.png" alt="Screen Shot 2014-04-07 at 22.03.19" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt; В России столько искусственных препятствий, что всегда есть на кого свалить&lt;/p&gt;&lt;/blockquote&gt;</description><link>http://localhost:2368/silicon-valley/</link><guid isPermaLink="false">77433000-f281-42e5-83f6-9c23dc5b96dd</guid><category>Бизнес</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Wed, 23 Mar 2016 14:09:49 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://akorepanov.ru/wp-content/uploads/2016/03/Screen-Shot-2014-04-07-at-22.03.19.png"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/h_355,w_629/v1467022598/Screen-Shot-2014-04-07-at-22.03.19-e1458724150647_swpxay.png" alt="Screen Shot 2014-04-07 at 22.03.19" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;В этом посте приведены цитаты из книги &lt;a href="http://akorepanov.ru/2016/03/23/yandex-book/"&gt;Яндекс.Книга&lt;/a&gt;, которые касаются IT-бизнеса в США и его отличий от остального мира. Также говорится о том почему Кремниевая долина появилась там, где она находится сейчас и может ли она куда-то переехать?&lt;/p&gt;
 
@@ -71,7 +87,7 @@
 
 &lt;p&gt;Итак, это вторая книга Дмитрия Соколова-Митрича, которая попала мне в руки. Рецензию на другую можно найти &lt;a href="http://akorepanov.ru/2015/08/24/real-reporter/"&gt;здесь&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Дмитрий — мастер пера и журналистики. Он на протяжении всей&lt;/p&gt;</description><link>http://localhost:2368/yandex-book/</link><guid isPermaLink="false">4bac8e07-bab9-4359-86c2-06af8f24e8a4</guid><category>Книги</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Wed, 23 Mar 2016 13:57:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022600/1010315780_zflky7.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022600/1010315780_zflky7.jpg" alt="1010315780" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Дмитрий — мастер пера и журналистики. Он на протяжении всей&lt;/p&gt;</description><link>http://localhost:2368/yandex-book/</link><guid isPermaLink="false">4bac8e07-bab9-4359-86c2-06af8f24e8a4</guid><category>Книги</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Wed, 23 Mar 2016 13:57:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022600/1010315780_zflky7.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022600/1010315780_zflky7.jpg" alt="1010315780" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Что:&lt;/strong&gt; Яндекс.Книга &lt;br&gt;
 &lt;strong&gt;Кто:&lt;/strong&gt; Дмитрий Соколов-Митрич &lt;br&gt;
@@ -332,7 +348,7 @@
 &lt;strong&gt;Оценка: 9/10&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Это художественная книга, объемная. Читается довольно легко, но под конец уже начинаешь уставать и читать через силу (сказывается размер). &lt;br&gt;
- Тем не менее, толщина книги оправдана. В ней много описания деталей, быта, окружения&lt;/p&gt;</description><link>http://localhost:2368/shantaram/</link><guid isPermaLink="false">da763e2f-2ec7-42f9-92e2-b3d522133ca1</guid><category>Книги</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Thu, 17 Mar 2016 21:53:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022601/2266882_800_uxvgrk.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022601/2266882_800_uxvgrk.jpg" alt="2266882_800" title=""&gt;&lt;/a&gt; &lt;br&gt;
+ Тем не менее, толщина книги оправдана. В ней много описания деталей, быта, окружения&lt;/p&gt;</description><link>http://localhost:2368/shantaram/</link><guid isPermaLink="false">da763e2f-2ec7-42f9-92e2-b3d522133ca1</guid><category>Книги</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Thu, 17 Mar 2016 21:53:46 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022601/2266882_800_uxvgrk.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022601/2266882_800_uxvgrk.jpg" alt="2266882_800" title=""&gt;&lt;/a&gt; &lt;br&gt;
 &lt;strong&gt;Что:&lt;/strong&gt; Шантарам &lt;br&gt;
 &lt;strong&gt;Кто:&lt;/strong&gt; Грегори Робертс &lt;br&gt;
 &lt;strong&gt;Почему:&lt;/strong&gt; про Индию, заинтересовался этой темой после поездки в Гималаи &lt;br&gt;
@@ -932,7 +948,7 @@
 &lt;strong&gt;Почему&lt;/strong&gt;: Давно хотел прочитать, но все руки не доходили. И вот, наконец, дошли. Долго откладывал потому что думал, что книжка большая по объему. Оказалось прямо наоборот. &lt;br&gt;
 &lt;strong&gt;Оценка&lt;/strong&gt;: &lt;strong&gt;9/10&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Многие из вас наверняка прочли её давным давно. Поэтому и пересказывать сюжет не буду.&lt;/p&gt;</description><link>http://localhost:2368/le-petit-prince/</link><guid isPermaLink="false">4360c60f-37fd-46d3-90d8-2608b48fdbff</guid><category>Книги</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Wed, 16 Mar 2016 17:38:07 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022615/download_esvw80.png"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022615/download_esvw80.png" alt="download" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Многие из вас наверняка прочли её давным давно. Поэтому и пересказывать сюжет не буду.&lt;/p&gt;</description><link>http://localhost:2368/le-petit-prince/</link><guid isPermaLink="false">4360c60f-37fd-46d3-90d8-2608b48fdbff</guid><category>Книги</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Wed, 16 Mar 2016 17:38:07 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022615/download_esvw80.png"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022615/download_esvw80.png" alt="download" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Что&lt;/strong&gt;: Маленький принц &lt;br&gt;
 &lt;strong&gt;Кто&lt;/strong&gt;: Антуан де Сент-Экзупери &lt;br&gt;
@@ -968,7 +984,7 @@
 &lt;/blockquote&gt;
 
 &lt;p&gt;&lt;strong&gt;Кто:&lt;/strong&gt; Эверетт Шостром, американский психолог и психотерапевт, ученик Абрахама Маслоу &lt;br&gt;
-&lt;strong&gt;Что:&lt;/strong&gt; «Анти-Карнеги или человек-манипулятор». Книга по популярной психологии, легким чтением не назвать. Ещё одна теория, ещё один подход к описанию мотивации человека и отношений&lt;/p&gt;</description><link>http://localhost:2368/anti-karnegi/</link><guid isPermaLink="false">d3292e5a-4fc4-4017-ac3a-1f3a0004e244</guid><category>Книги</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Wed, 16 Mar 2016 16:58:53 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022944/1007450822_xi7rci.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022944/1007450822_xi7rci.jpg" alt="1007450822" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;strong&gt;Что:&lt;/strong&gt; «Анти-Карнеги или человек-манипулятор». Книга по популярной психологии, легким чтением не назвать. Ещё одна теория, ещё один подход к описанию мотивации человека и отношений&lt;/p&gt;</description><link>http://localhost:2368/anti-karnegi/</link><guid isPermaLink="false">d3292e5a-4fc4-4017-ac3a-1f3a0004e244</guid><category>Книги</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Wed, 16 Mar 2016 16:58:53 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022944/1007450822_xi7rci.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022944/1007450822_xi7rci.jpg" alt="1007450822" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;Вспомним Евангелие от Матфея: “ЧТО ПОЛЬЗЫ ЧЕЛОВЕКУ, ЕСЛИ ОН ЗАВОЮЕТ ВЕСЬ МИР, НО ПОТЕРЯЕТ СОБСТВЕННУЮ ДУШУ?”&lt;/p&gt;
@@ -1137,7 +1153,7 @@
 &lt;p&gt;Артём делит все бизнесы на:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Сервисные&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/dna-startup/</link><guid isPermaLink="false">7c8d26b3-ee4c-4f7a-839f-ab76f92aa9f3</guid><category>Бизнес</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Mon, 14 Dec 2015 23:52:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022603/x_79c8bb48_na0zk5.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022603/x_79c8bb48_na0zk5.jpg" alt="x_79c8bb48" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;li&gt;&lt;strong&gt;Сервисные&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/dna-startup/</link><guid isPermaLink="false">7c8d26b3-ee4c-4f7a-839f-ab76f92aa9f3</guid><category>Бизнес</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Mon, 14 Dec 2015 23:52:03 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022603/x_79c8bb48_na0zk5.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022603/x_79c8bb48_na0zk5.jpg" alt="x_79c8bb48" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Что&lt;/strong&gt;: мастер-класс по шагам, через которые проходит любой стартап. Конспект события. &lt;br&gt;
 &lt;strong&gt;Кто&lt;/strong&gt;: Артем Азевич, трекер ФРИИ (человек работающий с командами в акселераторе ФРИИ), участвовал в примерно 8-ми акселераторах ФРИИ &lt;br&gt;
@@ -1324,7 +1340,7 @@
 &lt;ul&gt;
 &lt;li&gt;Первый способ — структурный, или аналитический. При этом читатель движется от целого к частному.&lt;/li&gt;
 &lt;li&gt;Второй способ — интерпретационный, или синтетический. Здесь читатель движется от частного к целому.&lt;/li&gt;
-&lt;li&gt;Третий&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/how-to-read-books-2/</link><guid isPermaLink="false">6d26640e-8ea2-4c43-ae69-066fda2fe044</guid><category>Книги</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Fri, 30 Oct 2015 21:21:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022604/Mortimer-Adler-adlerbook_yblacx.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022604/Mortimer-Adler-adlerbook_yblacx.jpg" alt="Mortimer-Adler-adlerbook" title=""&gt;&lt;/a&gt; &lt;br&gt;
+&lt;li&gt;Третий&lt;/li&gt;&lt;/ul&gt;</description><link>http://localhost:2368/how-to-read-books-2/</link><guid isPermaLink="false">6d26640e-8ea2-4c43-ae69-066fda2fe044</guid><category>Книги</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Fri, 30 Oct 2015 21:21:39 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022604/Mortimer-Adler-adlerbook_yblacx.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022604/Mortimer-Adler-adlerbook_yblacx.jpg" alt="Mortimer-Adler-adlerbook" title=""&gt;&lt;/a&gt; &lt;br&gt;
  Эту статью можно назвать второй частью конспекта книги «Как читать книги» Мортимера Адлера. &lt;a href="http://akorepanov.ru/2015/10/30/how-to-read-books-1/"&gt;Первая&lt;/a&gt;.  &lt;/p&gt;
 
 &lt;p&gt;Итак, при чтении нехудожественной литературы Адлер выделяет три способа чтения:&lt;/p&gt;
@@ -1514,7 +1530,7 @@
 &lt;strong&gt;Почему:&lt;/strong&gt; практическая книга, свод правил по работе с информацией из печатных источников &lt;br&gt;
 &lt;strong&gt;Вердикт: 8/10&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;На самом деле, я прочитал эту книгу давно, где-то в 2010-2011 годах. О чем она, ясно из названия.&lt;/p&gt;</description><link>http://localhost:2368/how-to-read-books-1/</link><guid isPermaLink="false">daa54100-fe07-4dc8-a207-9c4802618b5c</guid><category>Книги</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Fri, 30 Oct 2015 19:55:52 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022605/Aristotle_jifkq6.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022605/Aristotle_jifkq6.jpg" alt="Aristotle" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;На самом деле, я прочитал эту книгу давно, где-то в 2010-2011 годах. О чем она, ясно из названия.&lt;/p&gt;</description><link>http://localhost:2368/how-to-read-books-1/</link><guid isPermaLink="false">daa54100-fe07-4dc8-a207-9c4802618b5c</guid><category>Книги</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Fri, 30 Oct 2015 19:55:52 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022605/Aristotle_jifkq6.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022605/Aristotle_jifkq6.jpg" alt="Aristotle" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Кто:&lt;/strong&gt; Адлер Мортимер (на фото — Аристотель, если что) &lt;br&gt;
 &lt;strong&gt;Что:&lt;/strong&gt; «Как читать книги» (более подходящее название — «искусство чтения») &lt;br&gt;
@@ -1705,7 +1721,7 @@
 
 &lt;p&gt;Landing page — способ привлечения клиента-покупателя. &lt;br&gt;
  Один из множества и со множеством тонкостей внутри. &lt;br&gt;
- По мнению Дмитрия&lt;/p&gt;</description><link>http://localhost:2368/landing-page-master-class/</link><guid isPermaLink="false">ddd14f26-af73-4a3e-b524-88af10c464e4</guid><category>Бизнес</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Fri, 23 Oct 2015 13:53:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022612/eho-e1445548406519_nztobo.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022612/eho-e1445548406519_nztobo.jpg" alt="eho" title=""&gt;&lt;/a&gt; &lt;br&gt;
+ По мнению Дмитрия&lt;/p&gt;</description><link>http://localhost:2368/landing-page-master-class/</link><guid isPermaLink="false">ddd14f26-af73-4a3e-b524-88af10c464e4</guid><category>Бизнес</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Fri, 23 Oct 2015 13:53:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022612/eho-e1445548406519_nztobo.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022612/eho-e1445548406519_nztobo.jpg" alt="eho" title=""&gt;&lt;/a&gt; &lt;br&gt;
  Что&lt;/strong&gt;: мастер-класс по проектированию Landing page, конспект события &lt;br&gt;
 &lt;strong&gt;Кто&lt;/strong&gt;: Дмитрий Сергеев, основатель сервиса &lt;a href="http://vk.com/away.php?to=http%3A%2F%2Fcarrotquest.io&amp;amp;post=-58309911_1197"&gt;carrotquest.io&lt;/a&gt; и тренер заочного Акселератора ФРИИ &lt;br&gt;
 &lt;strong&gt;Когда и где&lt;/strong&gt;: 22 окт. 2015, в Digital Port, г. Пермь &lt;br&gt;
@@ -1840,7 +1856,7 @@
 
 &lt;p&gt;&lt;a href="https://youtu.be/TmWC6163BoQ?t=3h24m30s"&gt;Back to the future 4&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Я не являюсь фанатом того, что делает 1C, но слова кажутся мне правильными.&lt;/p&gt;</description><link>http://localhost:2368/it-companies-differences/</link><guid isPermaLink="false">bcb3b33c-8fe3-4a7b-920a-e64d5a109e2e</guid><category>Бизнес</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Fri, 16 Oct 2015 00:04:09 GMT</pubDate><content:encoded>&lt;p&gt;IT компании отличаются друг от друга двумя критериями.&lt;/p&gt;
+&lt;p&gt;Я не являюсь фанатом того, что делает 1C, но слова кажутся мне правильными.&lt;/p&gt;</description><link>http://localhost:2368/it-companies-differences/</link><guid isPermaLink="false">bcb3b33c-8fe3-4a7b-920a-e64d5a109e2e</guid><category>Бизнес</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Fri, 16 Oct 2015 00:04:09 GMT</pubDate><content:encoded>&lt;p&gt;IT компании отличаются друг от друга двумя критериями.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Каких людей они набрали&lt;/li&gt;
@@ -1860,7 +1876,7 @@
 
 &lt;p&gt;Эта книга меняет сознание.  &lt;/p&gt;
 
-&lt;p&gt;Итак, пару слов о предыстории. Книга базируется на&lt;/p&gt;</description><link>http://localhost:2368/peter-thiel-from-zero-to-one/</link><guid isPermaLink="false">74adfa92-196e-4da8-bdb4-23d6b38da0bb</guid><category>Бизнес</category><category>Книги</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Thu, 15 Oct 2015 16:02:35 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Кто:&lt;/strong&gt; Питер Тиль, один из основателей PayPal и Palantir, первый инвестор в Facebook, LinkedIn, Yelp и пр., миллиардер &lt;br&gt;
+&lt;p&gt;Итак, пару слов о предыстории. Книга базируется на&lt;/p&gt;</description><link>http://localhost:2368/peter-thiel-from-zero-to-one/</link><guid isPermaLink="false">74adfa92-196e-4da8-bdb4-23d6b38da0bb</guid><category>Бизнес</category><category>Книги</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Thu, 15 Oct 2015 16:02:35 GMT</pubDate><content:encoded>&lt;p&gt;&lt;strong&gt;Кто:&lt;/strong&gt; Питер Тиль, один из основателей PayPal и Palantir, первый инвестор в Facebook, LinkedIn, Yelp и пр., миллиардер &lt;br&gt;
 &lt;strong&gt;Что&lt;/strong&gt;: «От нуля к единице» &lt;br&gt;
 &lt;strong&gt;Почему&lt;/strong&gt;: спонтанная покупка в магазине, о которой я ни секунды не пожалел &lt;br&gt;
 &lt;strong&gt;Вердикт&lt;/strong&gt;: &lt;strong&gt;10/10&lt;/strong&gt;&lt;/p&gt;
@@ -2236,7 +2252,7 @@
 &lt;strong&gt;Вердикт&lt;/strong&gt;: &lt;strong&gt;7/10&lt;/strong&gt;&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Невозможно&lt;/p&gt;&lt;/blockquote&gt;</description><link>http://localhost:2368/real-reporter/</link><guid isPermaLink="false">51b8c0cb-4ca1-43bf-9d85-44b148b3f807</guid><category>Книги</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Mon, 24 Aug 2015 19:47:08 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022617/1245_jhhym8.png"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022617/1245_jhhym8.png" alt="1245" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;Невозможно&lt;/p&gt;&lt;/blockquote&gt;</description><link>http://localhost:2368/real-reporter/</link><guid isPermaLink="false">51b8c0cb-4ca1-43bf-9d85-44b148b3f807</guid><category>Книги</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Mon, 24 Aug 2015 19:47:08 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022617/1245_jhhym8.png"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022617/1245_jhhym8.png" alt="1245" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Что&lt;/strong&gt;: Реальный Репортер. Почему этому не учат на журфаке?! &lt;br&gt;
 &lt;strong&gt;Кто&lt;/strong&gt;: Дмитрий Соколов-Митрич &lt;br&gt;
@@ -2407,7 +2423,7 @@
   
   &lt;p&gt;Это очень простое свойство — и тем удивительнее, что подавляющее большинство людей его не видит и даже не чувствует.&lt;/p&gt;
   
-  &lt;p&gt;ЛОЖЬ — ЭТО НЕ ТО ЖЕ САМОЕ, ЧТО ВРАНЬЕ. А ПРАВДА&lt;/p&gt;&lt;/blockquote&gt;</description><link>http://localhost:2368/how-to-distinguish-truth-from-falsehood/</link><guid isPermaLink="false">07bd4ecd-35a4-40d9-9a78-289f2246cd87</guid><category>Мысли</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Mon, 24 Aug 2015 19:44:54 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022678/134_jthu21.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022678/134_jthu21.jpg" alt="134" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+  &lt;p&gt;ЛОЖЬ — ЭТО НЕ ТО ЖЕ САМОЕ, ЧТО ВРАНЬЕ. А ПРАВДА&lt;/p&gt;&lt;/blockquote&gt;</description><link>http://localhost:2368/how-to-distinguish-truth-from-falsehood/</link><guid isPermaLink="false">07bd4ecd-35a4-40d9-9a78-289f2246cd87</guid><category>Мысли</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Mon, 24 Aug 2015 19:44:54 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022678/134_jthu21.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022678/134_jthu21.jpg" alt="134" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Из книги «&lt;a href="http://akorepanov.ru/2015/08/24/real-reporter/"&gt;Реальный Репортер&lt;/a&gt;»&lt;/p&gt;
 
@@ -2467,7 +2483,7 @@
 &lt;strong&gt;Спикер&lt;/strong&gt;: Михаил Трошев, руководитель службы поисковых интерфейсов Яндекса (визитка &lt;a href="http://mishanga.pro/"&gt;http://mishanga.pro/&lt;/a&gt;, описание &lt;a href="https://events.yandex.ru/lib/people/392/"&gt;https://events.yandex.ru/lib/people/392/&lt;/a&gt;) &lt;br&gt;
 &lt;strong&gt;Полезность (лично для меня)&lt;/strong&gt;: 6/10&lt;/p&gt;
 
-&lt;p&gt;&lt;strong&gt;О спикере&lt;/strong&gt;: Михаил живет в Москве 10 лет. Поначалу работал&lt;/p&gt;</description><link>http://localhost:2368/releases-every-day/</link><guid isPermaLink="false">92ec8dba-b12f-4b77-a776-47a8815bd0f8</guid><category>Programming</category><dc:creator>Антон Николаевич Корепанов</dc:creator><pubDate>Wed, 19 Aug 2015 15:51:24 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022680/365x365_rw0ycb.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022680/365x365_rw0ycb.jpg" alt="365x365" title=""&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;О спикере&lt;/strong&gt;: Михаил живет в Москве 10 лет. Поначалу работал&lt;/p&gt;</description><link>http://localhost:2368/releases-every-day/</link><guid isPermaLink="false">92ec8dba-b12f-4b77-a776-47a8815bd0f8</guid><category>Programming</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Wed, 19 Aug 2015 15:51:24 GMT</pubDate><content:encoded>&lt;p&gt;&lt;a href="http://res.cloudinary.com/ampersd/image/upload/v1467022680/365x365_rw0ycb.jpg"&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467022680/365x365_rw0ycb.jpg" alt="365x365" title=""&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Это конспект события&lt;/strong&gt;: Релизы каждый день &lt;br&gt;
 &lt;strong&gt;Дата&lt;/strong&gt;: 18 августа 2015 &lt;br&gt;
