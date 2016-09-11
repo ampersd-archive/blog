@@ -11,11 +11,12 @@
 
     <link rel="shortcut icon" href="../favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=9963c7a733">
-    <link rel="stylesheet" type="text/css" href="../assets/css/fonts.css?v=9963c7a733">
+    <link rel="stylesheet" type="text/css" href="../assets/css/screen.css?v=938a481c2f">
+    <link rel="stylesheet" type="text/css" href="../assets/css/fonts.css?v=938a481c2f">
 
     <link rel="canonical" href="index.html">
-    <meta name="referrer" content="origin">
+    <meta name="referrer" content="no-referrer-when-downgrade">
+    <link rel="amphtml" href="amp/index.html">
     
     <meta property="og:site_name" content="Blog about Everything">
     <meta property="og:type" content="article">
@@ -23,7 +24,7 @@
     <meta property="og:description" content="Классное расширение для Google Chrome. Пользуюсь им уже около двух месяцев. https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca Вкратце, почему это круто">
     <meta property="og:url" content="http://localhost:2368/momentum/">
     <meta property="article:published_time" content="2014-08-14T13:59:56.000Z">
-    <meta property="article:modified_time" content="2016-06-28T22:44:40.513Z">
+    <meta property="article:modified_time" content="2016-06-28T22:44:40.000Z">
     <meta property="article:tag" content="Living">
     
     <meta name="twitter:card" content="summary">
@@ -47,7 +48,12 @@
     "author": {
         "@type": "Person",
         "name": "Антон Корепанов",
-        "image": "//www.gravatar.com/avatar/f830fa649818e93c77b0749693ec7891?s=250&d=mm&r=x",
+        "image": {
+            "@type": "ImageObject",
+            "url": "//www.gravatar.com/avatar/f830fa649818e93c77b0749693ec7891?s=250&d=mm&r=x",
+            "width": 250,
+            "height": 250
+        },
         "url": "http://localhost:2368/author/anton/",
         "sameAs": [
             "http://akorepanov.ru"
@@ -57,20 +63,24 @@
     "headline": "Momentum",
     "url": "http://localhost:2368/momentum/",
     "datePublished": "2014-08-14T13:59:56.000Z",
-    "dateModified": "2016-06-28T22:44:40.513Z",
+    "dateModified": "2016-06-28T22:44:40.000Z",
     "keywords": "Living",
-    "description": "Классное расширение для Google Chrome. Пользуюсь им уже около двух месяцев. https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca Вкратце, почему это круто"
+    "description": "Классное расширение для Google Chrome. Пользуюсь им уже около двух месяцев. https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca Вкратце, почему это круто",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "http://localhost:2368"
+    }
 }
     </script>
 
-    <script type="text/javascript" src="../shared/ghost-url.js?v=9963c7a733"></script>
+    <script type="text/javascript" src="../shared/ghost-url.js?v=938a481c2f"></script>
 <script type="text/javascript">
 ghost.init({
 	clientId: "ghost-frontend",
 	clientSecret: "46e4e9e8050b"
 });
 </script>
-    <meta name="generator" content="Ghost 0.8">
+    <meta name="generator" content="Ghost 0.10">
     <link rel="alternate" type="application/rss+xml" title="Blog about Everything" href="../rss/index.html">
     <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -108,6 +118,24 @@ ghost.init({
 
     <div class="site-wrapper">
 
+      <div class="reading-time-indicator js-post-sticky-header">
+        <div class="post-reading-time js-post-reading-time">
+            <div class="percent js-percent-count">0%</div>
+            <progress value="0" class="read-progress-indicator single" max="10152">
+                <div class="progress-container">
+                    <span class="progress-bar"></span>
+                </div>
+            </progress>
+            <div class="read-estimation">
+                <div class="read-estimation-content">
+                    <div class="title"></div>
+                    <div class="estimated-time">
+                        <span class="js-word-count">2953</span> words - <span class="eta">11 min</span> read.
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
         
 
 
@@ -127,10 +155,10 @@ ghost.init({
                 <time class="post-date" datetime="2014-08-14">14 August 2014</time>  on <a href="../tag/living/">Living</a>
             </section>
         </header>
-        
-        <div class="reading-time"></div>
+
 
         <section class="post-content">
+            <div class="eta"></div>
             <p><a href="http://res.cloudinary.com/ampersd/image/upload/v1467022927/22_rnkov0.jpg"><img src="http://res.cloudinary.com/ampersd/image/upload/v1467022927/22_rnkov0.jpg" alt="22" title=""></a>Классное расширение для Google Chrome. Пользуюсь им уже около двух месяцев.</p>
 
 <p><a href="https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca">https://chrome.google.com/webstore/detail/momentum/laookkfknpbbblfpciffpaejjkokdgca</a></p>
@@ -191,15 +219,14 @@ ghost.init({
             */
             (function() {  // DON'T EDIT BELOW THIS LINE
                 var d = document, s = d.createElement('script');
-                
+
                 s.src = '//ampersd.disqus.com/embed.js';
-                
+
                 s.setAttribute('data-timestamp', +new Date());
                 (d.head || d.body).appendChild(s);
             })();
         </script>
         <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-        
 
     </article>
 </main>
@@ -229,9 +256,12 @@ ghost.init({
     </div>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- reading-time plugin from https://github.com/michael-lynch/reading-time -->
+    <script type="text/javascript" src="../assets/js/reading-time.js?v=938a481c2f"></script>
+    <script type="text/javascript" src="../assets/js/imagesloaded.js?v=938a481c2f"></script>
     
-    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=9963c7a733"></script>
-    <script type="text/javascript" src="../assets/js/index.js?v=9963c7a733"></script>
+    <script type="text/javascript" src="../assets/js/jquery.fitvids.js?v=938a481c2f"></script>
+    <script type="text/javascript" src="../assets/js/index.js?v=938a481c2f"></script>
 
-    <script async src="../assets/js/reading-time.js?v=9963c7a733"></script>
+    <!-- <script async src="/assets/js/reading-time.js?v=938a481c2f"></script> -->
 </body>
