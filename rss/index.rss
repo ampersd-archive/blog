@@ -1,11 +1,11 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Blog about Everything</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Sun, 11 Sep 2016 14:48:02 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Попугай в медвежьей берлоге</title><description>&lt;p&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg" alt="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg]" title=""&gt;&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Blog about Everything</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.8</generator><lastBuildDate>Sun, 11 Sep 2016 15:46:25 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Попугай в медвежьей берлоге</title><description>&lt;p&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg" alt="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg]" title=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Что:&lt;/strong&gt; Попугай в медвежьей берлоге &lt;br&gt;
 &lt;strong&gt;Кто:&lt;/strong&gt; Максим Матковский &lt;br&gt;
 &lt;strong&gt;Оценка интересности: 8/10&lt;/strong&gt;&lt;/p&gt;
 
 &lt;p&gt;Рассказ от лица выпускника-арабиста.
-Условно делится на две главы - в Киеве и в Сирии. Сначала он преподает на полставки в университете им. Шевченко (аналоге нашего МГИМО) арабский язык, при этом денег почти нет, но врёт всем вокруг,&lt;/p&gt;</description><link>http://localhost:2368/parrot-in-a-den/</link><guid isPermaLink="false">567f53e2-826d-4c54-b38e-635673df15dd</guid><dc:creator>Антон Корепанов</dc:creator><pubDate>Sun, 11 Sep 2016 09:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg" alt="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg]" title=""&gt;&lt;/p&gt;
+Условно делится на две главы - в Киеве и в Сирии. Сначала он преподает на полставки в университете им. Шевченко (аналоге нашего МГИМО) арабский язык, при этом денег почти нет, но врёт всем вокруг,&lt;/p&gt;</description><link>http://localhost:2368/parrot/</link><guid isPermaLink="false">567f53e2-826d-4c54-b38e-635673df15dd</guid><category>Books</category><dc:creator>Антон Корепанов</dc:creator><pubDate>Sun, 11 Sep 2016 09:50:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg" alt="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg]" title=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Что:&lt;/strong&gt; Попугай в медвежьей берлоге &lt;br&gt;
 &lt;strong&gt;Кто:&lt;/strong&gt; Максим Матковский &lt;br&gt;
@@ -246,7 +246,7 @@
 &lt;h4 id=""&gt;Художественные&lt;/h4&gt;
 
 &lt;p&gt;August 2016 &lt;br&gt;
-"Попугай в медвежьей берлоге" Максим Матковский [ &lt;a href="http://localhost:2368/parrot-in-a-bear-den"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
+"Попугай в медвежьей берлоге" Максим Матковский [ &lt;a href="http://localhost:2368/parrot/"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
 
 &lt;p&gt;MARCH 2016 &lt;br&gt;
 "Шантарам" Грегори Робертс [ &lt;a href="http://localhost:2368/shantaram/"&gt;link&lt;/a&gt; ] &lt;mark&gt;9/10&lt;/mark&gt; &lt;br&gt;
@@ -261,7 +261,7 @@
 &lt;h4 id=""&gt;Художественные&lt;/h4&gt;
 
 &lt;p&gt;August 2016 &lt;br&gt;
-"Попугай в медвежьей берлоге" Максим Матковский [ &lt;a href="http://localhost:2368/parrot-in-a-bear-den"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
+"Попугай в медвежьей берлоге" Максим Матковский [ &lt;a href="http://localhost:2368/parrot/"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
 
 &lt;p&gt;MARCH 2016 &lt;br&gt;
 "Шантарам" Грегори Робертс [ &lt;a href="http://localhost:2368/shantaram/"&gt;link&lt;/a&gt; ] &lt;mark&gt;9/10&lt;/mark&gt; &lt;br&gt;
