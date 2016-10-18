@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Blog about Everything</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.10</generator><lastBuildDate>Mon, 12 Sep 2016 11:36:59 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Попугай в медвежьей берлоге</title><description>&lt;p&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg" alt="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg]" title=""&gt;&lt;/p&gt;
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" version="2.0"><channel><title>Blog about Everything</title><description>Thoughts, stories and ideas.</description><link>http://localhost:2368/</link><generator>Ghost 0.10</generator><lastBuildDate>Tue, 18 Oct 2016 15:32:24 GMT</lastBuildDate><atom:link href="http://localhost:2368/rss/" rel="self" type="application/rss+xml"/><ttl>60</ttl><item><title>Попугай в медвежьей берлоге</title><description>&lt;p&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg" alt="http://res.cloudinary.com/ampersd/image/upload/v1473601489/21676840-cover_kmmhod.jpg]" title=""&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;Что:&lt;/strong&gt; Попугай в медвежьей берлоге &lt;br&gt;
 &lt;strong&gt;Кто:&lt;/strong&gt; Максим Матковский &lt;br&gt;
@@ -243,96 +243,252 @@
 А также благодарности, если есть за что ;-)&lt;/p&gt;</description><link>http://localhost:2368/feedback/</link><guid isPermaLink="false">9f650e45-8a27-4f71-9089-abe868d74bbf</guid><dc:creator>Антон Корепанов</dc:creator><pubDate>Sat, 10 Sep 2016 21:17:59 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/09/iqupgvpa.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/09/iqupgvpa.jpg" alt="Обратная связь"&gt;&lt;p&gt;В комментариях Disqus к этому посту Вы можете оставлять свои пожелания, предложения по содержимому блога.
 А также благодарности, если есть за что ;-)&lt;/p&gt;</content:encoded></item><item><title>Книги</title><description>&lt;p&gt;&lt;mark&gt;Выделенным&lt;/mark&gt; цветом - самые классные&lt;/p&gt;
 
-&lt;h4 id=""&gt;Художественные&lt;/h4&gt;
+&lt;style type="text/css"&gt;  
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{&lt;/style&gt;</description><link>http://localhost:2368/books/</link><guid isPermaLink="false">117ccb4d-a83e-4452-9a40-e23aac077d04</guid><dc:creator>Антон Корепанов</dc:creator><pubDate>Sat, 10 Sep 2016 17:27:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/09/diversity-knowledge-book-tree-132983-diversity-knowledge-book-tree-jpg-e1Wwmf-clipart.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/09/diversity-knowledge-book-tree-132983-diversity-knowledge-book-tree-jpg-e1Wwmf-clipart.jpg" alt="Книги"&gt;&lt;p&gt;&lt;mark&gt;Выделенным&lt;/mark&gt; цветом - самые классные&lt;/p&gt;
 
-&lt;p&gt;August 2016 &lt;br&gt;
-"Попугай в медвежьей берлоге" Максим Матковский [ &lt;a href="http://localhost:2368/parrot/"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
+&lt;style type="text/css"&gt;  
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-yw4l{vertical-align:top}
+th {font-weight: bold;}  
+&lt;/style&gt;  
 
-&lt;p&gt;MARCH 2016 &lt;br&gt;
-"Шантарам" Грегори Робертс [ &lt;a href="http://localhost:2368/shantaram/"&gt;link&lt;/a&gt; ] &lt;mark&gt;9/10&lt;/mark&gt; &lt;br&gt;
-"Маленький принц" Антуан де Сент-Экзупери [ &lt;a href="http://localhost:2368/le-petit-prince/"&gt;link&lt;/a&gt; ] 9/10 &lt;/p&gt;
+&lt;table class="tg"&gt;  
+  &lt;tr&gt;
+    &lt;th class="tg-yw4l"&gt;Прочитал&lt;/th&gt;
+    &lt;th class="tg-yw4l"&gt;Тематика&lt;/th&gt;
+    &lt;th class="tg-yw4l"&gt;Название&lt;/th&gt;
+    &lt;th class="tg-yw4l"&gt;Автор&lt;/th&gt;
+    &lt;th class="tg-yw4l"&gt;Оценка&lt;/th&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+    &lt;td class="tg-yw4l"&gt;2016-08&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;&lt;a href="http://localhost:2368/parrot/"&gt; Попугай в медвежьей берлоге &lt;/a&gt; &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Максим Матковский &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;8/10&lt;/td&gt;
+  &lt;/tr&gt;
 
-&lt;p&gt;NOVEMBER 2014 &lt;br&gt;
-"Осень патриарха" Габриэля Гарсиа Маркеса [ &lt;a href="http://localhost:2368/autumn-of-the-patriarch/"&gt;link&lt;/a&gt; ] 8/10 &lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2016-06&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Философия&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/the-one-world-schoolhouse/"&gt;
+&lt;mark&gt; Весь мир - школа &lt;/mark&gt;  
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Салман Хан &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;10/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;AUGUST 2015 &lt;br&gt;
-Цикл о Ведьмаке Анджея Сапковского&lt;/p&gt;</description><link>http://localhost:2368/books/</link><guid isPermaLink="false">117ccb4d-a83e-4452-9a40-e23aac077d04</guid><dc:creator>Антон Корепанов</dc:creator><pubDate>Sat, 10 Sep 2016 17:27:00 GMT</pubDate><media:content url="http://localhost:2368/content/images/2016/09/diversity-knowledge-book-tree-132983-diversity-knowledge-book-tree-jpg-e1Wwmf-clipart.jpg" medium="image"/><content:encoded>&lt;img src="http://localhost:2368/content/images/2016/09/diversity-knowledge-book-tree-132983-diversity-knowledge-book-tree-jpg-e1Wwmf-clipart.jpg" alt="Книги"&gt;&lt;p&gt;&lt;mark&gt;Выделенным&lt;/mark&gt; цветом - самые классные&lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2016-04&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Non fiction&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/yandex-book/"&gt;
+&lt;mark&gt; Яндекс Книга &lt;/mark&gt;  
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Дмитрий Соколов-Митрич &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;10/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;h4 id=""&gt;Художественные&lt;/h4&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2016-04&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/shantaram/"&gt;
+&lt;mark&gt;Шантарам &lt;/mark&gt;  
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Грегори Робертс &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;9/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;August 2016 &lt;br&gt;
-"Попугай в медвежьей берлоге" Максим Матковский [ &lt;a href="http://localhost:2368/parrot/"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2016-04&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;&lt;a href="http://localhost:2368/le-petit-prince/"&gt; Маленький принц &lt;/a&gt; &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Антуан де Сент-Экзупери &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;9/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;MARCH 2016 &lt;br&gt;
-"Шантарам" Грегори Робертс [ &lt;a href="http://localhost:2368/shantaram/"&gt;link&lt;/a&gt; ] &lt;mark&gt;9/10&lt;/mark&gt; &lt;br&gt;
-"Маленький принц" Антуан де Сент-Экзупери [ &lt;a href="http://localhost:2368/le-petit-prince/"&gt;link&lt;/a&gt; ] 9/10 &lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2016-04&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Психология&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/anti-karnegi/"&gt;
+Анти-Карнеги или человек-манипулятор 
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Эверетт Шостром &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;7/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;NOVEMBER 2014 &lt;br&gt;
-"Осень патриарха" Габриэля Гарсиа Маркеса [ &lt;a href="http://localhost:2368/autumn-of-the-patriarch/"&gt;link&lt;/a&gt; ] 8/10 &lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-10&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Бизнес&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/how-to-read-books-1/"&gt;
+        &lt;mark&gt;От нуля к единице&lt;/mark&gt;
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Питер Тиль &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;10/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;AUGUST 2015 &lt;br&gt;
-Цикл о Ведьмаке Анджея Сапковского [ &lt;a href="http://localhost:2368/witcher-saga/"&gt;link&lt;/a&gt; ] &lt;mark&gt;10/10&lt;/mark&gt;
-"Скотный двор" Джордж Оруэлл [ &lt;a href="http://localhost:2368/1984-and-animal-farm/"&gt;link&lt;/a&gt; ] 5/10 &lt;br&gt;
-"1984" Джордж Оруэлл [ &lt;a href="http://localhost:2368/1984-and-animal-farm/"&gt;link&lt;/a&gt; ] &lt;mark&gt;9/10&lt;/mark&gt; &lt;br&gt;
-"Тошнота" Жан-Поль Сартр [ &lt;a href="http://localhost:2368/nausea/"&gt;link&lt;/a&gt; ] 5/10&lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-10&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Философия&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/how-to-read-books-1/"&gt;
+        Как читать книги
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Мортимер Адлер &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;8/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;DECEMBER 2013 &lt;br&gt;
-«Над пропастью во ржи» Джером Селинджер [ &lt;a href="http://localhost:2368/the-catcher-in-the-rye/"&gt;link&lt;/a&gt; ] 8/10 &lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-08&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/witcher-saga/"&gt;
+        &lt;mark&gt; Ведьмак (цикл) &lt;/mark&gt;
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Анджей Сапковский &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;10/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;hr&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-08&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/real-reporter/"&gt;
+        Реальный репортер
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Дмитрий Соколов-Митрич &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;7/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;h4 id=""&gt;Психология&lt;/h4&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-08&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/1984-and-animal-farm/"&gt;
+        Скотный двор
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Джордж Оруэлл &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;5/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;MARCH 2016 &lt;br&gt;
-"Анти-Карнеги или человек-манипулятор" Эверетт Шостром [ &lt;a href="http://localhost:2368/anti-karnegi/"&gt;link&lt;/a&gt; ] 7/10 &lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-08&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/1984-and-animal-farm/"&gt;
+        &lt;mark&gt; 1984 &lt;/mark&gt;
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Джордж Оруэлл &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;9/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;APRIL 2015 &lt;br&gt;
-«Остаться в живых. Психология поведения в экстремальных ситуациях» Лоуренс Гонсалес [ &lt;a href="http://localhost:2368/deep-survival/"&gt;link&lt;/a&gt; ] 6,5/10 &lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-08&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/nausea/"&gt;
+        Тошнота
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Сартр &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;5/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;hr&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-05&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Бизнес&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/startup-uncut/"&gt;
+        Стартап без купюр
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Екатерина Иноземцева &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;7/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;h4 id=""&gt;Философия&lt;/h4&gt;
 
-&lt;p&gt;JUNE 2016 &lt;br&gt;
-"Весь мир - школа" Салман Хан [ &lt;a href="http://localhost:2368/the-one-world-schoolhouse/"&gt;link&lt;/a&gt; ] &lt;mark&gt;10/10&lt;/mark&gt;&lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2015-04&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Психология&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/deep-survival/"&gt;
+        Остаться в живых. Психология поведения в экстремальных ситуациях
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Лоуренс Гонсалес &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;6/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;OCTOBER 2015 &lt;br&gt;
-"Как читать книги" Мортимер Адлер [ &lt;a href="http://localhost:2368/how-to-read-books-1/"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2014-07&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Non fiction&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/a-long-way-gone/"&gt;
+        Завтра я иду убивать
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Ишмаэль Бих &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;8/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;hr&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2014-04&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Бизнес&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/remote/"&gt;
+        Remote. Таланты не привязаны к крупным городам
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Джейсон Фрайд и Дэвид Хайнемайер Хенссон &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;8/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;h4 id=""&gt;Бизнес&lt;/h4&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2014-04&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Бизнес&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/rework/"&gt;
+        Rework: бизнес без предрассудков
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Джейсон Фрайд и Дэвид Хайнемайер Хенссон &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;8/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;OCTOBER 2015 &lt;br&gt;
-"От нуля к единице" Питер Тиль [ &lt;a href="http://localhost:2368/peter-thiel-from-zero-to-one/"&gt;link&lt;/a&gt; ] &lt;mark&gt;10/10&lt;/mark&gt;&lt;/p&gt;
+&lt;tr&gt;  
+    &lt;td class="tg-yw4l"&gt;2013-12&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;Худ.&lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;
+      &lt;a href="http://localhost:2368/the-catcher-in-the-rye/"&gt;
+        Над пропастью во ржи
+      &lt;/a&gt; 
+    &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt; Джером Селинджер &lt;/td&gt;
+    &lt;td class="tg-yw4l"&gt;8/10&lt;/td&gt;
+&lt;/tr&gt;
 
-&lt;p&gt;MAY 2015 &lt;br&gt;
-"Стартап без купюр" Екатерина Иноземцева [ &lt;a href="http://localhost:2368/startup-uncut/"&gt;link&lt;/a&gt; ] 7/10&lt;/p&gt;
 
-&lt;p&gt;APRIL 2015 &lt;br&gt;
-"Remote. Таланты не привязаны к крупным городам" Джейсон Фрайд и Дэвид Хайнемайер Хенссон [ &lt;a href="http://localhost:2368/remote/"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
 
-&lt;p&gt;AUGUST 2014 &lt;br&gt;
-«Rework: бизнес без предрассудков» Джейсон Фрайд и Дэвид Хайнемайер Хенссон [ &lt;a href="http://localhost:2368/rework/"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Биографии (Байопик)&lt;/strong&gt; &lt;br&gt;
-MARCH 2016 &lt;br&gt;
-"Яндекс Книга" [ &lt;a href="http://localhost:2368/yandex-book/"&gt;link&lt;/a&gt; ] &lt;mark&gt;10/10&lt;/mark&gt;&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h4 id=""&gt;Разное&lt;/h4&gt;
-
-&lt;p&gt;AUGUST 2015 &lt;br&gt;
-"Реальный репортер" Дмитрий Соколов-Митрич 
-[ &lt;a href="http://localhost:2368/real-reporter/"&gt;link&lt;/a&gt; ] 7/10&lt;/p&gt;
-
-&lt;p&gt;JULY 2014 &lt;br&gt;
-"Завтра я иду убивать" Ишмаэль Бих [ &lt;a href="http://localhost:2368/a-long-way-gone/"&gt;link&lt;/a&gt; ] 8/10&lt;/p&gt;
-
-&lt;hr&gt;
-
-&lt;h4 id=""&gt;Саморазвитие&lt;/h4&gt;</content:encoded></item><item><title>Цитаты. Салман Хан "Весь мир - школа"</title><description>&lt;p&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467226363/pic_salman-khan_n7czv7.jpg" alt=""&gt;
+&lt;/table&gt;</content:encoded></item><item><title>Цитаты. Салман Хан "Весь мир - школа"</title><description>&lt;p&gt;&lt;img src="http://res.cloudinary.com/ampersd/image/upload/v1467226363/pic_salman-khan_n7czv7.jpg" alt=""&gt;
 Из книги "&lt;a href="http://localhost:2368/the-one-world-schoolhouse/"&gt;Весь мир - школа&lt;/a&gt;" Салмана Хана (The One World Schoolhouse):&lt;/p&gt;
 
 &lt;blockquote&gt;
