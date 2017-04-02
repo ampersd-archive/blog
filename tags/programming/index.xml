@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programming on UP and DOWN</title>
+    <link>http://blog.akorepanov.ru/tags/programming/index.xml</link>
+    <description>Recent content in Programming on UP and DOWN</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>tony1000@ya.ru (Anton Korepanov)</managingEditor>
+    <webMaster>tony1000@ya.ru (Anton Korepanov)</webMaster>
+    <atom:link href="http://blog.akorepanov.ru/tags/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>DevOps: Релизы каждый день</title>
+      <link>http://blog.akorepanov.ru/post/releases-every-day/</link>
+      <pubDate>Wed, 19 Aug 2015 00:00:00 +0000</pubDate>
+      <author>tony1000@ya.ru (Anton Korepanov)</author>
+      <guid>http://blog.akorepanov.ru/post/releases-every-day/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;http://res.cloudinary.com/ampersd/image/upload/v1467022680/365x365_rw0ycb.jpg&#34;&gt;&lt;img src=&#34;http://res.cloudinary.com/ampersd/image/upload/v1467022680/365x365_rw0ycb.jpg&#34; alt=&#34;365x365&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Это конспект события&lt;/strong&gt;: Релизы каждый день&lt;br /&gt;
+&lt;strong&gt;Дата&lt;/strong&gt;: 18 августа 2015&lt;br /&gt;
+&lt;strong&gt;Место&lt;/strong&gt;: Digital Port, Пермь&lt;br /&gt;
+&lt;strong&gt;Спикер&lt;/strong&gt;: Михаил Трошев, руководитель службы поисковых интерфейсов Яндекса (визитка &lt;a href=&#34;http://mishanga.pro/&#34;&gt;http://mishanga.pro/&lt;/a&gt;, описание &lt;a href=&#34;https://events.yandex.ru/lib/people/392/&#34;&gt;https://events.yandex.ru/lib/people/392/&lt;/a&gt;)&lt;br /&gt;
+&lt;strong&gt;Полезность (лично для меня)&lt;/strong&gt;: &lt;sup&gt;6&lt;/sup&gt;&amp;frasl;&lt;sub&gt;10&lt;/sub&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;О спикере&lt;/strong&gt;: Михаил живет в Москве 10 лет. Поначалу работал в студии Артемия Лебедева. 3 года назад перешел в Яндекс. Он и его команда ответственны за внешний вид страницы поисковой выдачи. Т.е. за святая святых.&lt;/p&gt;
+
+&lt;h2 id=&#34;3-года-назад&#34;&gt;3 года назад&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Поначалу фронтенд релизился bash-скриптами, которые писали перлщики&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Релиз раз в четыре месяца (настолько долгим был процесс)&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;SVN (централизованная система контроля версий)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Что хотели:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Быстро реагировать на события&lt;/li&gt;
+&lt;li&gt;Быстро выкладывать клевые фичи&lt;/li&gt;
+&lt;li&gt;Проводить много экспериментов (выкатывать сырой дизайн, улучшать потом)&lt;/li&gt;
+&lt;li&gt;Делать фичи, а не чинить баги&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Размышления:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SVN — это плохо&lt;/li&gt;
+&lt;li&gt;Ручная подготовка беты для тестирования&lt;/li&gt;
+&lt;li&gt;Никаких модульных тестов&lt;/li&gt;
+&lt;li&gt;Медленное тестирование: - Ручное тестирование&lt;/li&gt;
+&lt;li&gt;Ожидание беты для тестирования&lt;/li&gt;
+&lt;li&gt;Ожидание разработчика&lt;/li&gt;
+&lt;li&gt;Плохое описание задач&lt;/li&gt;
+&lt;li&gt;Тестирование в режиме пиковых нагрузок&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Команда тестирования поиска Яндекса сидит в Минске, что несколько затрудняет коммуникацию.&lt;/p&gt;
+
+&lt;p&gt;Медленная подготовка релиза:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Много ручных действий&lt;/li&gt;
+&lt;li&gt;Человеческий фактор&lt;/li&gt;
+&lt;li&gt;Сакральные знания, &lt;a href=&#34;https://www.wikiwand.com/ru/%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80_%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B0&#34;&gt;автобусное число&lt;/a&gt; (сколько разработчиков должен сбить автобус, чтобы проект стало невозможно релизить). В случае с командой того времени, это число равнялось одному, т.к. один человек собирал релизы вручную.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;тернистый-путь-к-улучшениям&#34;&gt;Тернистый путь к улучшениям&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Git — распределенная система контроля версий&lt;/li&gt;
+&lt;li&gt;Gitflow — рекомендуемый workflow git’a, слегка модифицировали его&lt;/li&gt;
+&lt;li&gt;Инстанс github enterprise для яндекса (можно код ревью осуществлять)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Gitflow* (отличие от стандартного):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Прямых коммитов в dev не делают, только merge&lt;/li&gt;
+&lt;li&gt;Поэтому можно, если фича плохая — сразу ее отцепить&lt;/li&gt;
+&lt;li&gt;Вообще отказались от master ветки&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Для CI используют teamcity&lt;br /&gt;
+ При pull request’e сначала код проверяют другие разработчики, затем запускаются различные легковесные узконаправленные тесты (не все возможные, а только те, которые касаются конкретных измененных файлов), также используют &lt;a href=&#34;https://ru.bem.info/tools/testing/gemini/&#34;&gt;Gemini&lt;/a&gt; — open-source инструмент сравнения с идеальным скриншотом.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Релиз стал сходиться 2 недели&lt;/strong&gt;&lt;br /&gt;
+ Почему так медленно?&lt;br /&gt;
+ Очень долго шло &lt;a href=&#34;https://www.wikiwand.com/ru/%D0%A0%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5&#34;&gt;регрессионное тестирование&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Ввели правило&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;p&gt;Если нашли баг, и до вечера его не исправили — отрывают мердж полностью — делают реверт-коммит (т.е. Который отменяет все изменения)&lt;br /&gt;
+ Если дежурный не смог оторвать этот мердж, это делает сам разработчик.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Не надо чинить в авральном режиме, надо делать это спокойно&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Самое главное правило&lt;/strong&gt;&lt;br /&gt;
+ Релизные задачи имеют наивысший приоритет&lt;/p&gt;
+
+&lt;p&gt;Т.е. если разработчик занимается какой-то новой фичей, а ему прилетает баг по старой, которая нужна для релиза — он откладывает новую фичу в сторону и берется чинить баг.&lt;/p&gt;
+
+&lt;h2 id=&#34;автоматизация-релиза&#34;&gt;Автоматизация релиза&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;Попытка 1.&lt;/strong&gt; Использовать hubot (робота github’a)  — не удовлетворял требованиям.&lt;br /&gt;
+&lt;strong&gt;Попытка 2.&lt;/strong&gt; Хотели поначалу склепать свою систему с кодовым именем Hodor&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;прототип интерфейса&lt;/li&gt;
+&lt;li&gt;требования по автоматизации&lt;/li&gt;
+&lt;li&gt;скрипты&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Вердикт: Слишком сложно&lt;br /&gt;
+ Ничего кроме скриптов на самом деле не нужно&lt;/p&gt;
+
+&lt;p&gt;Тем более что у них уже был teamcity&lt;/p&gt;
+
+&lt;p&gt;Решили проанализировать какие элементарные шаги проводит релиз-инженер и автоматизировать каждый отдельный шаг через скрипт.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Действия релиз-инженера:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Отвести ветку с релизом&lt;/li&gt;
+&lt;li&gt;Добавить задачу а релиз&lt;/li&gt;
+&lt;li&gt;Оторвать задачу из релиза&lt;/li&gt;
+&lt;li&gt;Собрать релиза пакеты&lt;/li&gt;
+&lt;li&gt;Отправить в текстовый кластер&lt;/li&gt;
+&lt;li&gt;Отправить в боевой кластер&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Отрывание задачи из релиза решили не автоматизировать&lt;br /&gt;
+ Слишком трудозатратна автоматизация&lt;/p&gt;
+
+&lt;p&gt;На остальные действия — свои скрипты по-каждому.&lt;/p&gt;
+
+&lt;h2 id=&#34;выводы&#34;&gt;Выводы&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Делим релиз на атомарные действия&lt;/li&gt;
+&lt;li&gt;Делаем на каждое действие скрипт&lt;/li&gt;
+&lt;li&gt;Не пляшем от интерфейса или готовой системы. Т.е. не от человека, а от процесса. Не начинать рисовать кнопочки веб-приложения, а просто сделать сами скрипты.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Эти скрипты крутятся в teamcity, но даже если она сломается, можно руками запустить эти шаги последовательно — отказоустойчивость системы.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

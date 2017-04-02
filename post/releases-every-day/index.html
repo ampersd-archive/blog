@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>DevOps: Релизы каждый день</title>
+  <meta property="og:title" content="DevOps: Релизы каждый день" />
+  <meta name="twitter:title" content="DevOps: Релизы каждый день" />
+  <meta name="description" content="Это конспект события: Релизы каждый день
+Дата: 18 августа 2015
+Место: Digital Port, Пермь
+Спикер: Михаил Трошев, руководитель службы поисковых интерфейсов Яндекса (визитка http://mishanga.pro/, описание https://events.yandex.ru/lib/people/392/)
+Полезность (лично для меня): 6&frasl;10
+О спикере: Михаил живет в Москве 10 лет. Поначалу работал в студии Артемия Лебедева. 3 года назад перешел в Яндекс. Он и его команда ответственны за внешний вид страницы поисковой выдачи. Т.е. за святая святых.
+3 года назад  Поначалу фронтенд релизился bash-скриптами, которые писали перлщики Релиз раз в четыре месяца (настолько долгим был процесс) SVN (централизованная система контроля версий)  Что хотели:">
+  <meta property="og:description" content="Это конспект события: Релизы каждый день
+Дата: 18 августа 2015
+Место: Digital Port, Пермь
+Спикер: Михаил Трошев, руководитель службы поисковых интерфейсов Яндекса (визитка http://mishanga.pro/, описание https://events.yandex.ru/lib/people/392/)
+Полезность (лично для меня): 6&frasl;10
+О спикере: Михаил живет в Москве 10 лет. Поначалу работал в студии Артемия Лебедева. 3 года назад перешел в Яндекс. Он и его команда ответственны за внешний вид страницы поисковой выдачи. Т.е. за святая святых.
+3 года назад  Поначалу фронтенд релизился bash-скриптами, которые писали перлщики Релиз раз в четыре месяца (настолько долгим был процесс) SVN (централизованная система контроля версий)  Что хотели:">
+  <meta name="twitter:description" content="Это конспект события: Релизы каждый день
+Дата: 18 августа 2015
+Место: Digital Port, Пермь
+Спикер: Михаил Трошев, руководитель службы поисковых интерфейсов Яндекса (визитка http://mishanga.pro/, …">
+  <meta name="author" content="Anton Korepanov"/>
+  <meta property="og:image" content="http://blog.akorepanov.ru/img/avatar.jpg" />
+  <meta name="twitter:image" content="http://blog.akorepanov.ru/img/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="http://blog.akorepanov.ru/post/releases-every-day/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="UP and DOWN" />
+
+  <meta name="generator" content="Hugo 0.19" />
+  <link rel="canonical" href="http://blog.akorepanov.ru/post/releases-every-day/" />
+  <link rel="alternate" href="http://blog.akorepanov.ru/index.xml" type="application/rss+xml" title="UP and DOWN">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://blog.akorepanov.ru/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://blog.akorepanov.ru/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="http://blog.akorepanov.ru/css/highlight.min.css" />
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://blog.akorepanov.ru">UP and DOWN</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Feedback" href="/feedback">Feedback</a>
+            </li>
+          
+        
+        
+          <li>
+            <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;">
+              <span class="hidden-sm hidden-md hidden-lg">Search</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="UP and DOWN" href="http://blog.akorepanov.ru">
+            <img class="avatar-img" src="http://blog.akorepanov.ru/img/avatar.jpg" alt="UP and DOWN" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+  <div id="modalSearch" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Search UP and DOWN</h4>
+        </div>
+        <div class="modal-body">
+          <gcse:search></gcse:search>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>DevOps: Релизы каждый день</h1>
+                
+                
+                  <span class="post-meta">Posted on August 19, 2015</span>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    <div class="container" role="main">
+      
+        <div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        
+
+<p><a href="http://res.cloudinary.com/ampersd/image/upload/v1467022680/365x365_rw0ycb.jpg"><img src="http://res.cloudinary.com/ampersd/image/upload/v1467022680/365x365_rw0ycb.jpg" alt="365x365" /></a></p>
+
+<p><strong>Это конспект события</strong>: Релизы каждый день<br />
+<strong>Дата</strong>: 18 августа 2015<br />
+<strong>Место</strong>: Digital Port, Пермь<br />
+<strong>Спикер</strong>: Михаил Трошев, руководитель службы поисковых интерфейсов Яндекса (визитка <a href="http://mishanga.pro/">http://mishanga.pro/</a>, описание <a href="https://events.yandex.ru/lib/people/392/">https://events.yandex.ru/lib/people/392/</a>)<br />
+<strong>Полезность (лично для меня)</strong>: <sup>6</sup>&frasl;<sub>10</sub></p>
+
+<p><strong>О спикере</strong>: Михаил живет в Москве 10 лет. Поначалу работал в студии Артемия Лебедева. 3 года назад перешел в Яндекс. Он и его команда ответственны за внешний вид страницы поисковой выдачи. Т.е. за святая святых.</p>
+
+<h2 id="3-года-назад">3 года назад</h2>
+
+<ul>
+<li>Поначалу фронтенд релизился bash-скриптами, которые писали перлщики</li>
+<li><strong>Релиз раз в четыре месяца (настолько долгим был процесс)</strong></li>
+<li>SVN (централизованная система контроля версий)</li>
+</ul>
+
+<p><strong>Что хотели:</strong></p>
+
+<ul>
+<li>Быстро реагировать на события</li>
+<li>Быстро выкладывать клевые фичи</li>
+<li>Проводить много экспериментов (выкатывать сырой дизайн, улучшать потом)</li>
+<li>Делать фичи, а не чинить баги</li>
+</ul>
+
+<p><strong>Размышления:</strong></p>
+
+<ul>
+<li>SVN — это плохо</li>
+<li>Ручная подготовка беты для тестирования</li>
+<li>Никаких модульных тестов</li>
+<li>Медленное тестирование: - Ручное тестирование</li>
+<li>Ожидание беты для тестирования</li>
+<li>Ожидание разработчика</li>
+<li>Плохое описание задач</li>
+<li>Тестирование в режиме пиковых нагрузок</li>
+</ul>
+
+<p>Команда тестирования поиска Яндекса сидит в Минске, что несколько затрудняет коммуникацию.</p>
+
+<p>Медленная подготовка релиза:</p>
+
+<ul>
+<li>Много ручных действий</li>
+<li>Человеческий фактор</li>
+<li>Сакральные знания, <a href="https://www.wikiwand.com/ru/%D0%A4%D0%B0%D0%BA%D1%82%D0%BE%D1%80_%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B0">автобусное число</a> (сколько разработчиков должен сбить автобус, чтобы проект стало невозможно релизить). В случае с командой того времени, это число равнялось одному, т.к. один человек собирал релизы вручную.</li>
+</ul>
+
+<h2 id="тернистый-путь-к-улучшениям">Тернистый путь к улучшениям</h2>
+
+<ul>
+<li>Git — распределенная система контроля версий</li>
+<li>Gitflow — рекомендуемый workflow git’a, слегка модифицировали его</li>
+<li>Инстанс github enterprise для яндекса (можно код ревью осуществлять)</li>
+</ul>
+
+<p>Gitflow* (отличие от стандартного):</p>
+
+<ul>
+<li>Прямых коммитов в dev не делают, только merge</li>
+<li>Поэтому можно, если фича плохая — сразу ее отцепить</li>
+<li>Вообще отказались от master ветки</li>
+</ul>
+
+<p>Для CI используют teamcity<br />
+ При pull request’e сначала код проверяют другие разработчики, затем запускаются различные легковесные узконаправленные тесты (не все возможные, а только те, которые касаются конкретных измененных файлов), также используют <a href="https://ru.bem.info/tools/testing/gemini/">Gemini</a> — open-source инструмент сравнения с идеальным скриншотом.</p>
+
+<p><strong>Релиз стал сходиться 2 недели</strong><br />
+ Почему так медленно?<br />
+ Очень долго шло <a href="https://www.wikiwand.com/ru/%D0%A0%D0%B5%D0%B3%D1%80%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B5_%D1%82%D0%B5%D1%81%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5">регрессионное тестирование</a></p>
+
+<p><strong>Ввели правило</strong>:</p>
+
+<p>Если нашли баг, и до вечера его не исправили — отрывают мердж полностью — делают реверт-коммит (т.е. Который отменяет все изменения)<br />
+ Если дежурный не смог оторвать этот мердж, это делает сам разработчик.</p>
+
+<p><strong>Не надо чинить в авральном режиме, надо делать это спокойно</strong></p>
+
+<p><strong>Самое главное правило</strong><br />
+ Релизные задачи имеют наивысший приоритет</p>
+
+<p>Т.е. если разработчик занимается какой-то новой фичей, а ему прилетает баг по старой, которая нужна для релиза — он откладывает новую фичу в сторону и берется чинить баг.</p>
+
+<h2 id="автоматизация-релиза">Автоматизация релиза</h2>
+
+<p><strong>Попытка 1.</strong> Использовать hubot (робота github’a)  — не удовлетворял требованиям.<br />
+<strong>Попытка 2.</strong> Хотели поначалу склепать свою систему с кодовым именем Hodor</p>
+
+<ul>
+<li>прототип интерфейса</li>
+<li>требования по автоматизации</li>
+<li>скрипты</li>
+</ul>
+
+<p>Вердикт: Слишком сложно<br />
+ Ничего кроме скриптов на самом деле не нужно</p>
+
+<p>Тем более что у них уже был teamcity</p>
+
+<p>Решили проанализировать какие элементарные шаги проводит релиз-инженер и автоматизировать каждый отдельный шаг через скрипт.</p>
+
+<p><strong>Действия релиз-инженера:</strong></p>
+
+<ul>
+<li>Отвести ветку с релизом</li>
+<li>Добавить задачу а релиз</li>
+<li>Оторвать задачу из релиза</li>
+<li>Собрать релиза пакеты</li>
+<li>Отправить в текстовый кластер</li>
+<li>Отправить в боевой кластер</li>
+</ul>
+
+<p>Отрывание задачи из релиза решили не автоматизировать<br />
+ Слишком трудозатратна автоматизация</p>
+
+<p>На остальные действия — свои скрипты по-каждому.</p>
+
+<h2 id="выводы">Выводы</h2>
+
+<ul>
+<li>Делим релиз на атомарные действия</li>
+<li>Делаем на каждое действие скрипт</li>
+<li>Не пляшем от интерфейса или готовой системы. Т.е. не от человека, а от процесса. Не начинать рисовать кнопочки веб-приложения, а просто сделать сами скрипты.</li>
+</ul>
+
+<p>Эти скрипты крутятся в teamcity, но даже если она сломается, можно руками запустить эти шаги последовательно — отказоустойчивость системы.</p>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="http://blog.akorepanov.ru/post/vasily-urievsky/" data-toggle="tooltip" data-placement="top" title="Василий Уриевский из Саратова">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="http://blog.akorepanov.ru/post/how-to-distinguish-truth-from-falsehood/" data-toggle="tooltip" data-placement="top" title="Как отличить правду от лжи">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        
+          <div class="disqus-comments">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'akorepanovru';
+    var disqus_identifier = 'http:\/\/blog.akorepanov.ru\/post\/releases-every-day\/';
+    var disqus_title = 'DevOps: Релизы каждый день';
+    var disqus_url = 'http:\/\/blog.akorepanov.ru\/post\/releases-every-day\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          </div>
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:tony1000@ya.ru" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/100000507287251" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ampersd" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ampersd" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="http://blog.akorepanov.ru/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Anton Korepanov
+          &nbsp;&bull;&nbsp;
+          2016
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://blog.akorepanov.ru">UP and DOWN</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.19</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://blog.akorepanov.ru/js/main.js"></script>
+<script src="http://blog.akorepanov.ru/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+<script>
+  (function() {
+    var cx = '011565688573691861543:1taivy25s-a';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-46203511-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>

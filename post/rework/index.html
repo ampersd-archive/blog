@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+  <title>Rework</title>
+  <meta property="og:title" content="Rework" />
+  <meta name="twitter:title" content="Rework" />
+  <meta name="description" content="Прочитал книжку «Rework: бизнес без предрассудков» за авторством Джейсон Фрайд и Дэвид Хайнемайер Хенссон. Они известны тем, что основали компанию 37signals, которая раньше была чем-то вроде простой веб-студии, затем они выпустили свою веб-систему управления проектами basecamp, и взлетели на этом. Позже компания сменила имя на basecamp и сейчас они целиком сфокусировались на своем продукте.
+Книжка довольно короткая — день-два на прочтение. Представляет собой сборник советов. Парни говорят правильные вещи, и книга мотивирует к тому, чтобы начать самому что-то делать.">
+  <meta property="og:description" content="Прочитал книжку «Rework: бизнес без предрассудков» за авторством Джейсон Фрайд и Дэвид Хайнемайер Хенссон. Они известны тем, что основали компанию 37signals, которая раньше была чем-то вроде простой веб-студии, затем они выпустили свою веб-систему управления проектами basecamp, и взлетели на этом. Позже компания сменила имя на basecamp и сейчас они целиком сфокусировались на своем продукте.
+Книжка довольно короткая — день-два на прочтение. Представляет собой сборник советов. Парни говорят правильные вещи, и книга мотивирует к тому, чтобы начать самому что-то делать.">
+  <meta name="twitter:description" content="Прочитал книжку «Rework: бизнес без предрассудков» за авторством Джейсон Фрайд и Дэвид Хайнемайер Хенссон. Они известны тем, что основали компанию 37signals, которая раньше была чем-то вроде простой …">
+  <meta name="author" content="Anton Korepanov"/>
+  <meta property="og:image" content="http://blog.akorepanov.ru/img/avatar.jpg" />
+  <meta name="twitter:image" content="http://blog.akorepanov.ru/img/avatar.jpg" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="og:url" content="http://blog.akorepanov.ru/post/rework/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="UP and DOWN" />
+
+  <meta name="generator" content="Hugo 0.19" />
+  <link rel="canonical" href="http://blog.akorepanov.ru/post/rework/" />
+  <link rel="alternate" href="http://blog.akorepanov.ru/index.xml" type="application/rss+xml" title="UP and DOWN">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css" integrity="sha384-wITovz90syo1dJWVh32uuETPVEtGigN07tkttEqPv+uR2SE/mbQcG7ATL28aI9H0" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="http://blog.akorepanov.ru/css/main.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" />
+  <link rel="stylesheet" href="http://blog.akorepanov.ru/css/pygment_highlights.css" />
+  <link rel="stylesheet" href="http://blog.akorepanov.ru/css/highlight.min.css" />
+</head>
+
+
+  <body>
+
+    <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="http://blog.akorepanov.ru">UP and DOWN</a>
+    </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav navbar-right">
+        
+          
+            <li>
+              <a title="Blog" href="/">Blog</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Tags" href="/tags">Tags</a>
+            </li>
+          
+        
+          
+            <li>
+              <a title="Feedback" href="/feedback">Feedback</a>
+            </li>
+          
+        
+        
+          <li>
+            <a href="#modalSearch" data-toggle="modal" data-target="#modalSearch" style="outline: none;">
+              <span class="hidden-sm hidden-md hidden-lg">Search</span> <span id="searchGlyph" class="glyphicon glyphicon-search"></span>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+
+    <div class="avatar-container">
+      <div class="avatar-img-border">
+        
+          <a title="UP and DOWN" href="http://blog.akorepanov.ru">
+            <img class="avatar-img" src="http://blog.akorepanov.ru/img/avatar.jpg" alt="UP and DOWN" />
+          </a>
+        
+      </div>
+    </div>
+
+  </div>
+</nav>
+
+
+
+  <div id="modalSearch" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Search UP and DOWN</h4>
+        </div>
+        <div class="modal-body">
+          <gcse:search></gcse:search>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    
+  
+  
+  
+
+
+
+
+  
+
+  <header class="header-section ">
+    
+    <div class="intro-header no-img">
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+            <div class="post-heading">
+              <h1>Rework</h1>
+                
+                
+                  <span class="post-meta">Posted on August 9, 2014</span>
+                
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+    <div class="container" role="main">
+      
+        <div class="container">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+      <article role="main" class="blog-post">
+        <p><a href="http://res.cloudinary.com/ampersd/image/upload/v1467022946/rework_fssvq6.jpg"><img src="http://res.cloudinary.com/ampersd/image/upload/v1467022946/rework_fssvq6.jpg" alt="rework" /><br />
+</a></p>
+
+<p>Прочитал книжку «Rework: бизнес без предрассудков» за авторством <a href="http://www.mann-ivanov-ferber.ru/authors/jason_david/">Джейсон Фрайд и Дэвид Хайнемайер Хенссон</a>. Они известны тем, что основали компанию 37signals, которая раньше была чем-то вроде простой веб-студии, затем они выпустили свою веб-систему управления проектами basecamp, и взлетели на этом. Позже компания сменила имя на basecamp и сейчас они целиком сфокусировались на своем продукте.</p>
+
+<p>Книжка довольно короткая — день-два на прочтение. Представляет собой сборник советов. Парни говорят правильные вещи, и книга мотивирует к тому, чтобы начать самому что-то делать.</p>
+
+<p>Например, если вы задумали какой-то проект, то начните делать его сразу, потому что идея может быть бессмертной, но вдохновение иссякает. Вначале делайте все самостоятельно. Нанимайте людей только тогда, когда становится невмоготу.</p>
+
+<p>Подходящее время для найма наступает, когда на протяжении довольно длительного периода времени количество несделанной работы превышает порог ваших возможностей. </p>
+
+<p>Кроме того, занимаясь работой, которую в будущем вы будете кому-то делегировать — вы лучше поймете её специфику и какие конкретные навыки вам нужны от кандидатов.</p>
+
+<p><strong>Оценка полезности: <sup>8</sup>&frasl;<sub>10</sub></strong></p>
+
+<p>Приведу несколько интересных цитат:<br />
+ Во-первых они не согласны с тем, что люди учатся на ошибках, учиться можно только на успешных стратегиях.</p>
+
+<p>Успех дает вам настоящий боезапас. Когда какая-либо операция срабатывает, оказывается успешной, вы можете повторить ее в дальнейшем. И в следующий раз вы, возможно, сделаете это еще лучше.</p>
+
+<blockquote>
+<p>Успех – это опыт, который действительно многое значит.</p>
+</blockquote>
+
+<p>Планирование — это не более чем догадки</p>
+
+<blockquote>
+<p>Переименуйте ваши бизнес-планы в бизнес-догадки, финансовые планы в финансовые догадки, а стратегическое планирование – в стратегическое угадывание. Теперь вы можете перестать так о них волноваться. Они просто не стоят этого стресса.</p>
+
+<p>Перестаньте тратить время на построение догадок. Решите, что вы собираетесь делать на этой неделе, а не в этом году. Определите очередную наиболее важную задачу и займитесь ею. Принимайте решения непосредственно перед тем, как начать действовать, а не задолго до этого.</p>
+</blockquote>
+
+<p>Про трудоголиков</p>
+
+<blockquote>
+<p>Работать больше не значит больше заботиться об успехе бизнеса или больше выполнять. Это значит только то, что вы больше работаете.</p>
+
+<p>Трудоголики – не герои. Они не берегут время, они просто сжигают его. Настоящий герой уже давно дома, он нашел более быстрый способ завершить свои дела.</p>
+</blockquote>
+
+<p>Начинайте бизнес, а не стартап</p>
+
+<blockquote>
+<p>О, стартап! Это особая категория компаний, которая привлекает много внимания (особенно в мире технологий).</p>
+
+<p>Стартап – это волшебное место. Это место, где издержки – не ваша забота. Где никогда не обсуждается такое досадное понятие, как прибыль. Где вы можете тратить деньги других людей до тех пор, пока не найдете способ самостоятельно зарабатывать. Это место, к которому неприменимы законы бизнеса.</p>
+
+<p>Единственная проблема этого места – оно является выдумкой. Правда состоит в том, что любой бизнес, молодой или старый, подчиняется одним и тем же рыночным законам и экономическим правилам. Получаем доходы, несем издержки.</p>
+
+<p>Любой, кто применяет к бизнесу точку зрения «мы придумаем, как стать прибыльными в будущем», смешон. Это все равно что начать работу над созданием космической ракеты со слов: «Давайте сделаем вид, что гравитации не существует». Без четкого понимания того, как стать прибыльным, бизнес не является бизнесом – это не больше чем хобби!</p>
+
+<p>Поэтому не используйте идею стартапа как основу. Вместо этого начните настоящий <span lang="ru">бизнес. Настоящему бизнесу приходится иметь дело с такими вещами, как счета и зарплата. Настоящий бизнес думает о прибыли с первого дня своего существования. Настоящий бизнес не прячет серьезные проблемы за отговоркой: </span><span lang="en-US">«</span><span lang="ru">Все нормально, мы же стартап</span><span lang="en-US">». </span></p>
+</blockquote>
+
+<p>Идите спать</p>
+
+<blockquote>
+<p><span lang="ru">Работать в ущерб сну – плохая идея. </span><span lang="en-US"> </span><span lang="ru">За дополнительно выкроенную пару часов позднее </span><span style="line-height: 1.625;">придется заплатить сторицей – подрывом духа, настроя и изобретательности.</span></p>
+
+<p>Человек, отдающий себе отчет в том, что делает, изредка может позволить себе проработать сутки напролет. Но не превращайте это в привычку! Если она станет постоянной, то ее цена будет только расти.</p>
+</blockquote>
+
+<p>Ваши предположения не верны</p>
+
+<blockquote>
+<p>Все мы – ужасные оценщики. Мы думаем, что знаем, сколько времени потребуется на решение той или иной задачи, хотя на самом деле не имеем об этом никакого понятия.</p>
+
+<p>Когда мы предполагаем, сколько времени потребуется на те или иные действия, мы не просто ошибаемся – мы ошибаемся очень сильно. Это значит, что, отводя на реализацию</p>
+
+<p>проекта шесть месяцев, вы можете серьезно ошибаться. Речь может идти не о семи месяцах вместо шести, а о целом годе.</p>
+
+<p>Возможное решение – разбивать большие задачи на маленькие подзадачи. Чем они меньше, тем легче строить планы. Вы по-прежнему можете ошибаться, но ошибка будет намного меньше, чем при планировании большого проекта.</p>
+
+<p>Старайтесь делить временн́ые отрезки на небольшие части. Вместо планирования одного проекта, рассчитанного на 12 недель, разбейте его на 12 однонедельных проектов.</p>
+
+<p>Вместо колдовства над задачами, требующими более 30 часов, разбейте работу на более реалистичные 6-10-часовые отрезки. И затем двигайтесь вперед шаг за шагом.</p>
+</blockquote>
+
+<p>Длинные списки дел никогда не выполняются</p>
+
+<blockquote>
+<p>Начните составлять короткие списки дел вместо длинных, которые просто собирают пыль. Когда вы в последний раз полностью выполняли длинный список дел? Зачеркнув первые несколько пунктов, вы, скорее всего, просто-напросто забывали про него (или машинально отмечали дела, не выполненные должным образом).</p>
+
+<p>Длинные списки – это обвинительные приговоры. Чем длиннее список невыполненных дел, тем больше переживаний по этому поводу. С определенного момента вы просто перестаете смотреть в него, потому что он заставляет чувствовать себя некомфортно. Затем вы начинаете нервничать, и все дела превращаются в одну большую неприятность. Существует лучший путь. Разбейте свой длинный список на ряд небольших.</p>
+
+<p>Пусть количество невыполненных дел осталось прежним. Но вы можете смотреть на часть картины и находить в ней удовлетворение, видеть прогресс. Это гораздо лучше, чем, созерцая общую картину, ужасаться и винить себя в нерасторопности.</p>
+
+<p>Небольшой совет о том, как определять приоритеты: не обозначайте приоритет с помощью цифр или ярлыков. Не нужно говорить: «У этой задачи высокий приоритет, у этой – низкий», не надо подсчитывать: «Это – три, это – два, это – один, это – опять три и т. д.». Поступая таким образом, вы окажетесь завалены массой задач с высоким приоритетом.</p>
+
+<p>Вместо этого отмечайте важность визуально. Расположите наиболее важные задачи сверху. Когда вы покончите с ними, переходите к следующему по важности списку. Таким образом, в каждый момент времени у вас будет только одно наиболее важное дело. И этого достаточно.</p>
+</blockquote>
+
+<p>Ничего не записывайте</p>
+
+<blockquote>
+<p>Как лучше следить за тем, чего хотят ваши клиенты? Никак. Слушайте их, но затем забудьте то, что услышали. Мы не шутим, а говорим вполне серьезно.</p>
+
+<p>Вам нет необходимости вести таблицы, базы данных или системы учета. Запросы, которые действительно важны, будут повторяться снова и снова. Через какое-то время вы просто не сможете забыть про них. Ваши клиенты станут вашей памятью. Они ясно дадут вам понять, о каких вещах действительно стоит волноваться.</p>
+
+<p>Вы забыли про какую-то просьбу? Это значит, что она не так важна. Действительно важное просто так не исчезает.</p>
+</blockquote>
+
+      </article>
+
+      <ul class="pager blog-pager">
+        
+          <li class="previous">
+            <a href="http://blog.akorepanov.ru/post/passion-for-collecting/" data-toggle="tooltip" data-placement="top" title="Страсть к собирательству">&larr; Previous Post</a>
+          </li>
+        
+        
+          <li class="next">
+            <a href="http://blog.akorepanov.ru/post/momentum/" data-toggle="tooltip" data-placement="top" title="Momentum">Next Post &rarr;</a>
+          </li>
+        
+      </ul>
+
+      
+        
+          <div class="disqus-comments">
+            <div id="disqus_thread"></div>
+<script type="text/javascript">
+    var disqus_shortname = 'akorepanovru';
+    var disqus_identifier = 'http:\/\/blog.akorepanov.ru\/post\/rework\/';
+    var disqus_title = 'Rework';
+    var disqus_url = 'http:\/\/blog.akorepanov.ru\/post\/rework\/';
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+          </div>
+        
+      
+
+    </div>
+  </div>
+</div>
+
+      
+    </div>
+
+    <footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <ul class="list-inline text-center footer-links">
+          
+              <li>
+                <a href="mailto:tony1000@ya.ru" title="Email me">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-envelope fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/100000507287251" title="Facebook">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://github.com/ampersd" title="GitHub">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/ampersd" title="Instagram">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                  </span>
+                </a>
+              </li>
+          
+          <li>
+            <a href="http://blog.akorepanov.ru/index.xml" title="RSS">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="credits copyright text-muted">
+          Anton Korepanov
+          &nbsp;&bull;&nbsp;
+          2016
+
+          
+            &nbsp;&bull;&nbsp;
+            <a href="http://blog.akorepanov.ru">UP and DOWN</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          <a href="http://gohugo.io">Hugo v0.19</a> powered &nbsp;&bull;&nbsp; Theme by <a href="http://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a> adapted to <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.js" integrity="sha384-/y1Nn9+QQAipbNQWU65krzJralCnuOasHncUFXGkdwntGeSvQicrYkiUBwsgUqc1" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/contrib/auto-render.min.js" integrity="sha384-dq1/gEHSxPZQ7DdrM82ID4YVol9BYyU7GbWlIwnwyPzotpoc57wDw/guX8EaYGPx" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="http://blog.akorepanov.ru/js/main.js"></script>
+<script src="http://blog.akorepanov.ru/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> renderMathInElement(document.body); </script>
+
+
+
+
+<script>
+  (function() {
+    var cx = '011565688573691861543:1taivy25s-a';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+
+
+
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-46203511-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+  </body>
+</html>
