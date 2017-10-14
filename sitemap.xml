@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://blog.akorepanov.ru/post/india-day-3/</loc>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://blog.akorepanov.ru/post/india-day-2/</loc>
     <lastmod>2017-10-12T00:00:00+00:00</lastmod>
   </url>
@@ -290,7 +295,7 @@
   
   <url>
     <loc>http://blog.akorepanov.ru/post/</loc>
-    <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -343,19 +348,19 @@
   
   <url>
     <loc>http://blog.akorepanov.ru/tags/travel/</loc>
-    <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.akorepanov.ru/categories/travel/</loc>
-    <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://blog.akorepanov.ru/</loc>
-    <lastmod>2017-10-12T00:00:00+00:00</lastmod>
+    <lastmod>2017-10-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
