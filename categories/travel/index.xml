@@ -224,7 +224,11 @@
 
 &lt;h2 id=&#34;himalayan-advanture-institute&#34;&gt;Himalayan Advanture Institute&lt;/h2&gt;
 
-&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13753.06366046241!2d78.0365773!3d30.4852241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaeec51afbd34565f!2sHimalaya+Adventure+Institute!5e0!3m2!1sen!2sru!4v1508435429548&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&#34;Embed&#34;&gt;
+&lt;div&gt;
+  &lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13753.06366046241!2d78.0365773!3d30.4852241!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xaeec51afbd34565f!2sHimalaya+Adventure+Institute!5e0!3m2!1sen!2sru!4v1508435429548&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://res.cloudinary.com/ampersd/image/upload/v1507580779/India-06/SDC15172_blzrwh.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -437,9 +441,28 @@
 &lt;p&gt;Проспал, потому что сидел с индусами до поздна днем ранее.&lt;/p&gt;
 
 &lt;p&gt;Вот видео этого дня
-&lt;div style=&#34;text-align: center&#34;&gt;
-&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/oiN4abGTj0g&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;div class=&#34;Embed&#34;&gt;
+  &lt;div style=&#34;text-align: center&#34; &gt;
+    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/oiN4abGTj0g&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
 &lt;/div&gt;&lt;/p&gt;
+
+&lt;style&gt;
+
+.Embed &gt; div {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.Embed iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+&lt;/style&gt;
 </description>
     </item>
     
@@ -771,10 +794,30 @@
 &lt;p&gt;Ещё из наблюдений: индусы иногда щёлкают языком.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Видео этого дня:
+&lt;p&gt;Видео этого дня:&lt;/p&gt;
+
+&lt;div class=&#34;Embed&#34;&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/OTDXLSE_GR0&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+
+.Embed &gt; div {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.Embed iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+&lt;/style&gt;
 </description>
     </item>
     
@@ -864,7 +907,11 @@
 
 &lt;h2 id=&#34;ферма-navdanya&#34;&gt;Ферма Navdanya&lt;/h2&gt;
 
+&lt;div class=&#34;Embed&#34;&gt;
+&lt;div&gt;
 &lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13775.392501308568!2d77.8749581!3d30.3268375!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb1a7b9d0aa9a05b0!2sNavdanya+Biodiversity+Farm!5e0!3m2!1sen!2sru!4v1508267432912&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://res.cloudinary.com/ampersd/image/upload/v1507574571/India-04/WP_20150315_001_qttgoi.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -1018,7 +1065,11 @@
 
 &lt;h2 id=&#34;школа-purkal-youth-development-school&#34;&gt;Школа Purkal Youth Development School&lt;/h2&gt;
 
+&lt;div class=&#34;Embed&#34;&gt;
+&lt;div&gt;
 &lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13763.622652311795!2d78.0634614!3d30.4104183!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x5abe26633157b998!2sPurkal+Youth+Development+Society!5e0!3m2!1sen!2sru!4v1508273951779&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://res.cloudinary.com/ampersd/image/upload/v1507574633/India-04/WP_20150315_136_hvbmym.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -1144,10 +1195,30 @@
 &lt;p&gt;Спали мы вроем на 2х спальной кровати. Это, блин, странно.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Вот видео этого дня:
+&lt;p&gt;Вот видео этого дня:&lt;/p&gt;
+
+&lt;div class=&#34;Embed&#34;&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Eidr37m7fXY&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+
+.Embed &gt; div {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.Embed iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+&lt;/style&gt;
 </description>
     </item>
     
@@ -1336,10 +1407,30 @@ Agility - главное, гибкость в бизнесе. Этот мужи�
 
 &lt;p&gt;Впереди много славных дней вместе.&lt;/p&gt;
 
-&lt;p&gt;Видео этого дня:
+&lt;p&gt;Видео этого дня:&lt;/p&gt;
+
+&lt;div class=&#34;Embed&#34;&gt;
 &lt;div style=&#34;text-align: center&#34;&gt;
 &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/Lm-EHZo88kk&#34; frameborder=&#34;0&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/div&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;style&gt;
+
+.Embed &gt; div {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.Embed iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+&lt;/style&gt;
 </description>
     </item>
     
@@ -1375,8 +1466,13 @@ Agility - главное, гибкость в бизнесе. Этот мужи�
 
 &lt;p&gt;&lt;img src=&#34;http://res.cloudinary.com/ampersd/image/upload/v1507574542/India-02/WP_20150313_003_obs5ut.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Университет Doon University:
-&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.7303039573058!2d78.04313182444992!3d30.267154792901906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092939bfa1072b%3A0x36f414af3f3e8aab!2sDoon+University!5e1!3m2!1sen!2sru!4v1507790883768&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;p&gt;Университет Doon University:&lt;/p&gt;
+
+&lt;div class=&#34;Embed&#34;&gt;
+&lt;div&gt;
+&lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3456.7303039573058!2d78.04313182444992!3d30.267154792901906!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39092939bfa1072b%3A0x36f414af3f3e8aab!2sDoon+University!5e1!3m2!1sen!2sru!4v1507790883768&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Забор:&lt;/p&gt;
 
@@ -1408,7 +1504,11 @@ Agility - главное, гибкость в бизнесе. Этот мужи�
 &lt;p&gt;Там нашли guest house, нам выделили номер.&lt;/p&gt;
 &lt;/blockquote&gt;
 
+&lt;div class=&#34;Embed&#34;&gt;
+&lt;div&gt;
 &lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3248.819707847106!2d78.04294390327571!3d30.26607647815951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390929379d7e3719%3A0x92d977ae511ccf6b!2sFaculty+Lodge!5e0!3m2!1sen!2sru!4v1507791353635&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://res.cloudinary.com/ampersd/image/upload/v1507575103/India-02/WP_20150313_019_ogfx7v.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -1525,6 +1625,23 @@ Agility - главное, гибкость в бизнесе. Этот мужи�
 
 &lt;p&gt;Сейчас 21:45 по местному.&lt;/p&gt;
 &lt;/blockquote&gt;
+
+&lt;style&gt;
+
+.Embed &gt; div {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.Embed iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+&lt;/style&gt;
 </description>
     </item>
     
@@ -1535,8 +1652,6 @@ Agility - главное, гибкость в бизнесе. Этот мужи�
       <author>tony1000@ya.ru (Anton Korepanov)</author>
       <guid>http://blog.akorepanov.ru/post/india-day-1/</guid>
       <description>
-
-&lt;h1 id=&#34;индия-2-3-апреля-нью-дели&#34;&gt;Индия 2-3 апреля. Нью-Дели.&lt;/h1&gt;
 
 &lt;h2 id=&#34;2-апреля-четверг&#34;&gt;2 апреля, четверг&lt;/h2&gt;
 
@@ -1777,7 +1892,11 @@ Agility - главное, гибкость в бизнесе. Этот мужи�
 
 &lt;p&gt;Мы успели обменять валюту на рынке, сдать багаж в камеру хранения на Олд-Дели, купить билеты на поезд, прогулялись по центру, по рынкам с пряностями, дошли до Красного форта, потом на метро доехали до Храма Лотоса, куда нам не удалось попасть, но мы попутно в этом же районе зашли в другой храм и он был очень даже ничего. Там на входе нужно было снимать обувь и одевать тапочки.&lt;/p&gt;
 
+&lt;div class=&#34;Embed&#34;&gt;
+&lt;div&gt;
 &lt;iframe src=&#34;https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14663.694110459935!2d77.24769308736772!3d28.55708368120929!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xf25771c34bfa1ebf!2sISKCON+Temple+Delhi+-+East+of+Kailash+(Glory+of+India+%26+Vedic+Cultural+Center)!5e0!3m2!1sen!2sru!4v1507619374927&#34; width=&#34;600&#34; height=&#34;450&#34; frameborder=&#34;0&#34; style=&#34;border:0&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+&lt;/div&gt;
 
 &lt;p&gt;&lt;img src=&#34;http://res.cloudinary.com/ampersd/image/upload/v1507580682/India-01/SDC15120_xnaydg.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
@@ -1798,6 +1917,23 @@ Agility - главное, гибкость в бизнесе. Этот мужи�
 &lt;p&gt;&lt;img src=&#34;http://res.cloudinary.com/ampersd/image/upload/v1507580682/India-01/SDC15119_pcijod.jpg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;После этого мы вернулись на вокзал, забрали вещи, сели на ночной поезд, который должен был довести нас до следующей точки нашего путешествия - города Дехрадуна, столицы штата Уттаракханд.&lt;/p&gt;
+
+&lt;style&gt;
+
+.Embed &gt; div {
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.Embed iframe {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+&lt;/style&gt;
 </description>
     </item>
     
